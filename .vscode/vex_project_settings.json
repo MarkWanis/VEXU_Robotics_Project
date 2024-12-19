@@ -1,16 +1,16 @@
 {
 	"extension": {
-		"version": "0.6.0",
+		"version": "0.6.1",
 		"json": 2
 	},
 	"project": {
-		"name": "Test_VEX",
+		"name": "VEXU_Robotics_Project_2",
 		"description": "",
-		"creationDate": "9/27/2024, 5:50:11 PM",
+		"creationDate": "12/19/2024, 1:37:10 PM",
 		"platform": "V5",
 		"language": "cpp",
-		"slot": 2,
-		"sdkVersion": "V5_20240223_11_00_00",
+		"slot": 1,
+		"sdkVersion": "V5_20240802_15_00_00",
 		"cpp": {
 			"includePath": [],
 			"printf_float": true
