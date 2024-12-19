@@ -17,7 +17,7 @@ int main()
     
     
     moveDistance(16);
-    //turnRight();
-    //turnLeft();
+    turnRight();
+    turnLeft();
     
 }
