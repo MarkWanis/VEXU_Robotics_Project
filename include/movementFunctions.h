@@ -148,13 +148,14 @@ void moveDistance(double endDist) // 16
 
     resetMotorPos(); 
 
-    startMotors(5);
-    wait(.3, sec);
+    startMotors(10);
+    wait(1, sec);
     
     while (distTraveled() < accelEnd)
     {
         startMotors( 100 * ( distTraveled() / accelEnd ) );
         wait(delay, msec); 
+        printf("test");
     }
 
     while (distTraveled() < endDist)
