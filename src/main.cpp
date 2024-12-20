@@ -16,8 +16,10 @@ int main()
     Brain.Screen.printAt(10, 20, "Calibration Complete");
     
     
-    moveDistance(16);
-    turnRight();
-    turnLeft();
+    startMotors(20);
+    //wait(5, sec);
+    //moveDistance(16);
+    //turnRight();
+    //turnLeft();
     
 }
